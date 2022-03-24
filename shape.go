@@ -400,7 +400,8 @@ func (f *File) addDrawingShape(sheet, drawingXML, cell string, formatSet *format
 				HorzOverflow: "clip",
 				Wrap:         "none",
 				RtlCol:       false,
-				Anchor:       "t",
+				Anchor:       "ctr",
+				AnchorCtr:    true,
 			},
 		},
 	}
