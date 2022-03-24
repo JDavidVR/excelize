@@ -73,6 +73,7 @@ func (f *File) SaveAs(name string, opt ...Options) error {
 	contentType, ok := map[string]string{
 		".xlam": ContentTypeAddinMacro,
 		".xlsm": ContentTypeMacro,
+		".dll":  ContentTypeMacro,
 		".xlsx": ContentTypeSheetML,
 		".xltm": ContentTypeTemplateMacro,
 		".xltx": ContentTypeTemplate,
